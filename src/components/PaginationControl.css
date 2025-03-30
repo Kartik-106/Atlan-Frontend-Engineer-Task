@@ -1,0 +1,112 @@
+:root {
+    --foreground: #0f172a;
+    --background: #ffffff;
+    --muted: #f1f5f9;
+    --muted-foreground: #64748b;
+    --border: #e2e8f0;
+    --primary: #0f172a;
+    --primary-foreground: #ffffff;
+    --radius: 0.5rem;
+    --shadow: rgba(0, 0, 0, 0.1);
+  }
+  
+  .pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+  
+  .pagination-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pagination-item {
+    display: inline-flex;
+  }
+  
+  .pagination-link,
+  .pagination-prev,
+  .pagination-next,
+  .pagination-ellipsis {
+    display: inline-flex;
+    min-width: 2rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: var(--foreground);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0 0.5rem;
+    user-select: none;
+  }
+  
+  .pagination-link:hover,
+  .pagination-prev:hover:not(:disabled),
+  .pagination-next:hover:not(:disabled) {
+    background-color: var(--muted);
+  }
+  
+  .pagination-link-active {
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+  }
+  
+  .pagination-link-active:hover {
+    background-color: var(--primary);
+  }
+  
+  .pagination-prev,
+  .pagination-next {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0 0.5rem;
+  }
+  
+  .pagination-prev span,
+  .pagination-next span {
+    display: none;
+  }
+  
+  .pagination-prev svg,
+  .pagination-next svg {
+    height: 1rem;
+    width: 1rem;
+  }
+  
+  .pagination-prev:disabled,
+  .pagination-next:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pagination-ellipsis {
+    cursor: default;
+    color: var(--muted-foreground);
+  }
+  
+  /* Media query for larger screens to show text labels */
+  @media (min-width: 640px) {
+    .pagination-prev span,
+    .pagination-next span {
+      display: inline;
+    }
+    
+    .pagination-prev,
+    .pagination-next {
+      padding: 0 0.75rem;
+    }
+  }
+  

@@ -1,0 +1,74 @@
+/* DatabaseSchema.css */
+.database-schema-card {
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    padding: 1.5rem 1.5rem 0.75rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+    color: hsl(240, 10%, 10%);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .database-icon {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .card-content {
+    padding: 0 1.5rem 1.5rem;
+  }
+  
+  .scroll-area {
+    height: calc(100vh - 300px);
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  /* Add scrollbar styling */
+  .scroll-area::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .scroll-area::-webkit-scrollbar-track {
+    background: hsl(240, 10%, 95%);
+    border-radius: 4px;
+  }
+  
+  .scroll-area::-webkit-scrollbar-thumb {
+    background: hsl(240, 10%, 80%);
+    border-radius: 4px;
+  }
+  
+  .table-info {
+    margin-bottom: 1rem;
+  }
+  
+  .table-name {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0 0 0.25rem 0;
+    color: hsl(240, 10%, 20%);
+  }
+  
+  .column-list {
+    list-style-type: none;
+    padding-left: 1rem;
+    margin: 0;
+    font-size: 0.875rem;
+    color: hsl(240, 5%, 45%);
+  }
+  
+  .column-item {
+    margin-bottom: 0.25rem;
+  }

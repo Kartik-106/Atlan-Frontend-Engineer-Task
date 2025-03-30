@@ -1,0 +1,582 @@
+{
+  "select * from categories": {
+    "table": "categories",
+    "filter": "",
+    "columns": [
+      "categoryid",
+      "categoryname",
+      "description",
+      "picture"
+    ]
+  },
+  "select categoryid from categories": {
+    "table": "categories",
+    "filter": "",
+    "columns": [
+      "categoryid"
+    ]
+  },
+  "select categoryname from categories": {
+    "table": "categories",
+    "filter": "",
+    "columns": [
+      "categoryname"
+    ]
+  },
+  "select description from categories": {
+    "table": "categories",
+    "filter": "",
+    "columns": [
+      "description"
+    ]
+  },
+  "select picture from categories": {
+    "table": "categories",
+    "filter": "",
+    "columns": [
+      "picture"
+    ]
+  },
+  "select * from customers": {
+    "table": "customers",
+    "filter": "",
+    "columns": [
+      "customerid",
+      "companyname",
+      "contactname",
+      "contacttitle",
+      "address",
+      "city",
+      "region",
+      "postalcode",
+      "country",
+      "phone",
+      "fax"
+    ]
+  },
+  "select customerid from customers": {
+    "table": "customers",
+    "filter": "",
+    "columns": [
+      "customerid"
+    ]
+  },
+  "select companyname from customers": {
+    "table": "customers",
+    "filter": "",
+    "columns": [
+      "companyname"
+    ]
+  },
+  "select contactname from customers": {
+    "table": "customers",
+    "filter": "",
+    "columns": [
+      "contactname"
+    ]
+  },
+  "select contacttitle from customers": {
+    "table": "customers",
+    "filter": "",
+    "columns": [
+      "contacttitle"
+    ]
+  },
+  "select address from customers": {
+    "table": "customers",
+    "filter": "",
+    "columns": [
+      "address"
+    ]
+  },
+  "select city from customers": {
+    "table": "customers",
+    "filter": "",
+    "columns": [
+      "city"
+    ]
+  },
+  "select region from customers": {
+    "table": "customers",
+    "filter": "",
+    "columns": [
+      "region"
+    ]
+  },
+  "select postalcode from customers": {
+    "table": "customers",
+    "filter": "",
+    "columns": [
+      "postalcode"
+    ]
+  },
+  "select country from customers": {
+    "table": "customers",
+    "filter": "",
+    "columns": [
+      "country"
+    ]
+  },
+  "select phone from customers": {
+    "table": "customers",
+    "filter": "",
+    "columns": [
+      "phone"
+    ]
+  },
+  "select fax from customers": {
+    "table": "customers",
+    "filter": "",
+    "columns": [
+      "fax"
+    ]
+  },
+  "select * from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "employeeid",
+      "lastname",
+      "firstname",
+      "title",
+      "titleofcourtesy",
+      "birthdate",
+      "hiredate",
+      "address",
+      "city",
+      "region",
+      "postalcode",
+      "country",
+      "homephone",
+      "extension",
+      "photo",
+      "notes",
+      "reportsto",
+      "photopath"
+    ]
+  },
+  "select employeeid from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "employeeid"
+    ]
+  },
+  "select lastname from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "lastname"
+    ]
+  },
+  "select firstname from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "firstname"
+    ]
+  },
+  "select title from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "title"
+    ]
+  },
+  "select titleofcourtesy from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "titleofcourtesy"
+    ]
+  },
+  "select birthdate from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "birthdate"
+    ]
+  },
+  "select hiredate from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "hiredate"
+    ]
+  },
+  "select address from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "address"
+    ]
+  },
+  "select city from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "city"
+    ]
+  },
+  "select region from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "region"
+    ]
+  },
+  "select postalcode from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "postalcode"
+    ]
+  },
+  "select country from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "country"
+    ]
+  },
+  "select homephone from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "homephone"
+    ]
+  },
+  "select extension from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "extension"
+    ]
+  },
+  "select photo from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "photo"
+    ]
+  },
+  "select notes from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "notes"
+    ]
+  },
+  "select reportsto from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "reportsto"
+    ]
+  },
+  "select photopath from employees": {
+    "table": "employees",
+    "filter": "",
+    "columns": [
+      "photopath"
+    ]
+  },
+  "select * from employee_territories": {
+    "table": "employee_territories",
+    "filter": "",
+    "columns": [
+      "employeeid",
+      "territoryid"
+    ]
+  },
+  "select employeeid from employee_territories": {
+    "table": "employee_territories",
+    "filter": "",
+    "columns": [
+      "employeeid"
+    ]
+  },
+  "select territoryid from employee_territories": {
+    "table": "employee_territories",
+    "filter": "",
+    "columns": [
+      "territoryid"
+    ]
+  },
+  "select * from order_details": {
+    "table": "order_details",
+    "filter": "",
+    "columns": [
+      "orderid",
+      "productid",
+      "unitprice",
+      "quantity",
+      "discount"
+    ]
+  },
+  "select orderid from order_details": {
+    "table": "order_details",
+    "filter": "",
+    "columns": [
+      "orderid"
+    ]
+  },
+  "select productid from order_details": {
+    "table": "order_details",
+    "filter": "",
+    "columns": [
+      "productid"
+    ]
+  },
+  "select unitprice from order_details": {
+    "table": "order_details",
+    "filter": "",
+    "columns": [
+      "unitprice"
+    ]
+  },
+  "select quantity from order_details": {
+    "table": "order_details",
+    "filter": "",
+    "columns": [
+      "quantity"
+    ]
+  },
+  "select discount from order_details": {
+    "table": "order_details",
+    "filter": "",
+    "columns": [
+      "discount"
+    ]
+  },
+  "select * from products": {
+    "table": "products",
+    "filter": "",
+    "columns": [
+      "id",
+      "name",
+      "price",
+      "category",
+      "stock"
+    ]
+  },
+  "select id from products": {
+    "table": "products",
+    "filter": "",
+    "columns": [
+      "id"
+    ]
+  },
+  "select name from products": {
+    "table": "products",
+    "filter": "",
+    "columns": [
+      "name"
+    ]
+  },
+  "select price from products": {
+    "table": "products",
+    "filter": "",
+    "columns": [
+      "price"
+    ]
+  },
+  "select category from products": {
+    "table": "products",
+    "filter": "",
+    "columns": [
+      "category"
+    ]
+  },
+  "select stock from products": {
+    "table": "products",
+    "filter": "",
+    "columns": [
+      "stock"
+    ]
+  },
+  "select * from regions": {
+    "table": "regions",
+    "filter": "",
+    "columns": [
+      "regionid",
+      "regiondescription"
+    ]
+  },
+  "select regionid from regions": {
+    "table": "regions",
+    "filter": "",
+    "columns": [
+      "regionid"
+    ]
+  },
+  "select regiondescription from regions": {
+    "table": "regions",
+    "filter": "",
+    "columns": [
+      "regiondescription"
+    ]
+  },
+  "select * from shippers": {
+    "table": "shippers",
+    "filter": "",
+    "columns": [
+      "shipperid",
+      "companyname",
+      "phone"
+    ]
+  },
+  "select shipperid from shippers": {
+    "table": "shippers",
+    "filter": "",
+    "columns": [
+      "shipperid"
+    ]
+  },
+  "select companyname from shippers": {
+    "table": "shippers",
+    "filter": "",
+    "columns": [
+      "companyname"
+    ]
+  },
+  "select phone from shippers": {
+    "table": "shippers",
+    "filter": "",
+    "columns": [
+      "phone"
+    ]
+  },
+  "select * from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "supplierid",
+      "companyname",
+      "contactname",
+      "contacttitle",
+      "address",
+      "city",
+      "region",
+      "postalcode",
+      "country",
+      "phone",
+      "fax",
+      "homepage"
+    ]
+  },
+  "select supplierid from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "supplierid"
+    ]
+  },
+  "select companyname from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "companyname"
+    ]
+  },
+  "select contactname from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "contactname"
+    ]
+  },
+  "select contacttitle from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "contacttitle"
+    ]
+  },
+  "select address from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "address"
+    ]
+  },
+  "select city from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "city"
+    ]
+  },
+  "select region from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "region"
+    ]
+  },
+  "select postalcode from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "postalcode"
+    ]
+  },
+  "select country from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "country"
+    ]
+  },
+  "select phone from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "phone"
+    ]
+  },
+  "select fax from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "fax"
+    ]
+  },
+  "select homepage from suppliers": {
+    "table": "suppliers",
+    "filter": "",
+    "columns": [
+      "homepage"
+    ]
+  },
+  "select * from territories": {
+    "table": "territories",
+    "filter": "",
+    "columns": [
+      "territoryid",
+      "territorydescription",
+      "regionid"
+    ]
+  },
+  "select territoryid from territories": {
+    "table": "territories",
+    "filter": "",
+    "columns": [
+      "territoryid"
+    ]
+  },
+  "select territorydescription from territories": {
+    "table": "territories",
+    "filter": "",
+    "columns": [
+      "territorydescription"
+    ]
+  },
+  "select regionid from territories": {
+    "table": "territories",
+    "filter": "",
+    "columns": [
+      "regionid"
+    ]
+  }
+}

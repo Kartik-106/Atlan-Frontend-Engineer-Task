@@ -1,0 +1,117 @@
+[
+  {
+    "name": "categories",
+    "columns": [
+      "categoryid",
+      "categoryname",
+      "description",
+      "picture"
+    ]
+  },
+  {
+    "name": "customers",
+    "columns": [
+      "customerid",
+      "companyname",
+      "contactname",
+      "contacttitle",
+      "address",
+      "city",
+      "region",
+      "postalcode",
+      "country",
+      "phone",
+      "fax"
+    ]
+  },
+  {
+    "name": "employees",
+    "columns": [
+      "employeeid",
+      "lastname",
+      "firstname",
+      "title",
+      "titleofcourtesy",
+      "birthdate",
+      "hiredate",
+      "address",
+      "city",
+      "region",
+      "postalcode",
+      "country",
+      "homephone",
+      "extension",
+      "photo",
+      "notes",
+      "reportsto",
+      "photopath"
+    ]
+  },
+  {
+    "name": "employee_territories",
+    "columns": [
+      "employeeid",
+      "territoryid"
+    ]
+  },
+  {
+    "name": "order_details",
+    "columns": [
+      "orderid",
+      "productid",
+      "unitprice",
+      "quantity",
+      "discount"
+    ]
+  },
+  {
+    "name": "products",
+    "columns": [
+      "id",
+      "name",
+      "price",
+      "category",
+      "stock"
+    ]
+  },
+  {
+    "name": "regions",
+    "columns": [
+      "regionid",
+      "regiondescription"
+    ]
+  },
+  {
+    "name": "shippers",
+    "columns": [
+      "shipperid",
+      "companyname",
+      "phone"
+    ]
+  },
+  {
+    "name": "suppliers",
+    "columns": [
+      "supplierid",
+      "companyname",
+      "contactname",
+      "contacttitle",
+      "address",
+      "city",
+      "region",
+      "postalcode",
+      "country",
+      "phone",
+      "fax",
+      "homepage"
+    ]
+  },
+  {
+    "name": "territories",
+    "columns": [
+      "territoryid",
+      "territorydescription",
+      "regionid"
+    ]
+  }
+]
