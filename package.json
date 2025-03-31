@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node generateQueryMap.cjs && vite",
-    "build": "node generateQueryMap.cjs && tsc -b && vite build ",
+    "build": "tsc -b && vite build ",
     "lint": "eslint .",
     "preview": "vite preview"
   },
