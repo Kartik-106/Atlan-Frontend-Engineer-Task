@@ -1,54 +1,51 @@
-# React + TypeScript + Vite
+# SQL Query Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The SQL Query Simulator is a web-based application that allows users to write and execute SQL queries while displaying predefined results. This project is entirely front-end and focuses on usability, performance, and scalability. It features an interactive UI, query execution simulation, and a structured approach to handling SQL queries efficiently.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **JavaScript Framework**: React+vite
+- **CSS Framework**: Vanilla CSS
+- **Major Packages Used**:
+  - **PapaParse**: To enable CSV downloads of query results.
+  - **React-Window**: For efficient rendering of large datasets.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+- **Database Schema Panel**: Displays available tables and their columns.
+- **SQL Query Editor**: Users can write SQL queries and execute them with a 'Run' button.
+- **Query Execution & Results**: Simulates query execution and displays predefined results.
+- **Query History**: Users can revisit and re-run past queries.
+- **Click-to-Query Feature**: Clicking on a column auto-generates a query for fetching that column.
+- **Pagination & Infinite Scroll**: Users can switch between paginated results or infinite scrolling.
+- **Download CSV**: Users can download query results in CSV format.
 
-## Expanding the ESLint configuration
+## Performance & Optimization
+- **Dataset Storage**: The dataset is placed in the `public` folder instead of `src` to prevent browser crashes at build time. This allows data to be fetched dynamically via an API request.
+- **Optimized Query Results Display**: Implemented efficient rendering techniques to handle large datasets smoothly.
+- **Page Load Time Measurement**:
+  - I used the Chrome DevTools Performance tab to measure the load time.
+- **Optimizations Implemented**:
+  - Reduced bundle size by using fewer dependencies.
+  - Minimized re-renders of UI components to enhance responsiveness.
+  - Implemented query results pagination for handling large data sets efficiently.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Deployment
+- **Platform**: Deployed on Netlify for easy access and sharing.
+- **Live Demo**: [Query Playground](https://boisterous-horse-319573.netlify.app/)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Setup Instructions
+```sh
+# Clone the repository
+git clone https://github.com/Kartik-106/Atlan-Frontend-Engineer-Task/
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# Navigate to the project directory
+cd Atlan-Frontend-Engineer-Task
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Install dependencies
+npm install
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+#generate Possible Queries
+node generateQueryMap.CJS
+
+# Start the development server
+npm run dev
